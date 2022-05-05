@@ -1,0 +1,6 @@
+.header__logo {
+	object-fit: contain;
+	height: 100px;
+	/* align-items: center; */
+	text-align: center;
+}

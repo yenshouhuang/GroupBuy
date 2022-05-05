@@ -1,0 +1,75 @@
+.userid {
+    color: #090909;
+    padding: 0.5em 0.5em;
+    font-size: 10px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 2px 2px 4px #c5c5c5,
+        -2px -2px 4px #ffffff;
+    white-space: nowrap;
+    font-family: inherit;
+    font-weight: 800;
+    margin-right: 70px;
+}
+
+.userid:hover {
+    border: 1px solid white;
+}
+
+.userid:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+        -4px -4px 12px #ffffff;
+}
+
+/* From uiverse.io */
+.btn3 {
+    position: relative;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 0.5em 0.5em;
+    display: inline-block;
+    border-radius: 6em;
+    transition: all .2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    right: 0;
+    margin-bottom: 20px;
+}
+
+.btn3:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn3:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn3::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn3::after {
+    background-color: #fff;
+}
+
+.btn3:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}

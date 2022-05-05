@@ -1,0 +1,29 @@
+a:link,
+a:visited {
+	color: #f05636;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.page-container {
+	position: relative;
+	min-height: 100%;
+}
+
+.content-wrap {
+	margin-bottom: 20%;
+}
+
+.footer {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen';
+	line-height: 0.5;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: #0f294a;
+	color: #f05636;
+}
